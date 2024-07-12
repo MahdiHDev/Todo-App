@@ -1,0 +1,42 @@
+#inputField {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addTask {
+    width: 60%;
+    border-radius: 10px;
+}
+
+#profilePic {
+    height: 50px;
+    width: 50px;
+}
+
+.nav-item {
+    position: relative;
+}
+
+#functions {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    right: 0px;
+    background-color: #fff;
+    color: #000;
+    display: none;
+    width: 200px;
+}
+
+.funcLi a {
+    color: #000;
+}
+
+.funcLi a:hover {
+    color: #0b5ed7;
+}
+
+.profileImg {
+    height: 150px;
+    width: 150px;
+    
+}
